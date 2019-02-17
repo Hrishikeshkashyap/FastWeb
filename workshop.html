@@ -1,0 +1,32 @@
+<!DOCTYPE html><!-- is the correct declaration for HTML5-->
+<html>
+<head><!--important for page but not to show-->
+	<title>Spectrum</title>
+	<link rel="icon" type="imge/png" href="rend.png">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="logo">
+	<img src="rend.png">
+</div>
+<div id="dp">
+	<img src="ren.png" onclick="up()">
+</div>
+<div id="det">
+	<center> >> HRISHIKESH KASHYAP | ECE | 17-1-4-076 | 910106152 << </center>
+</div>
+</body>
+<!--<script>
+	function up(){
+		var x=prompt("enter a no:");
+		alert(x*10);
+		}
+</script>-->
+<script>
+	function up(){
+		var x=document.getElementById("det");
+		x.style.display="block";
+		x.style.animation="up 6s ease";
+		}
+</script>
+</html>

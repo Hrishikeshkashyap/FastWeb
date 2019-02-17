@@ -1,0 +1,53 @@
+body{
+	background-image: url(a.jpeg);
+}
+
+#logo{
+	margin-top: -2%;
+	width: 20%;
+	height: 20%;
+}
+#logo img{
+	width: 50%;
+	height: 60%;
+}
+#dp{
+	margin-top: 5%;
+	margin-left: 40%;
+	width: 20%;
+	height: 20%;
+}
+#dp img{
+	border-style:solid;
+	border-width: medium;
+	border-color: green;
+	border-radius: 70px;
+	width: 70%;
+	height: 80%;
+	opacity: .7;
+}
+#dp img:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+@keyframes up{
+	from{
+		margin-top:-40%;
+	}
+	to{
+		margin-top:10%;
+	}
+}
+#det{
+	display: none;
+	padding: 1%;
+	font-size: 80px;
+	width: 45%;
+	height: 200px;
+	margin-left: 25%;
+	margin-top: 10%;
+	background-color: yellow;
+	opacity: .7;
+	border-radius:25px;
+	
+}
